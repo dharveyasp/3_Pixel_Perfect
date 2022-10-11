@@ -1,3 +1,17 @@
 *{
-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header{
+  position: relative;
+  background: url(https://cdn11.bigcommerce.com/s-93bf2/images/stencil/1280x1280/products/2951/6033/S_4286_78566.1295816768.800.800__96891.1545347976.jpg?c=2) no-repeat bottom center;
+  height: 50vh;
+  width: 100%;
+}
+.menubar{
+  list-style: none;
+}
+.menubar > li{
+
 }
