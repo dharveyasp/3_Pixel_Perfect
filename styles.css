@@ -3,15 +3,87 @@
   margin: 0;
   padding: 0;
 }
+.col-1{
+  width: 8.3%;
+}
+.col-2{
+  width: 16.7%;
+}
+.col-3{
+  width: 25%;
+}
+.col-4{
+  width: 33%;
+}
+.col-6 {
+  width: 50%;
+}
+.start{
+  display: inline-flex;
+  justify-content: start;
+}
+.end{
+  display: inline-flex;
+  justify-content: flex-end;
+}
+.top{
+  display: inline-flex;
+  align-content: start;
+}
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{text-decoration: none;}
 .header{
   position: relative;
-  background: url(https://cdn11.bigcommerce.com/s-93bf2/images/stencil/1280x1280/products/2951/6033/S_4286_78566.1295816768.800.800__96891.1545347976.jpg?c=2) no-repeat bottom center;
+  background: url(http://cdn.cnn.com/cnnnext/dam/assets/180626120721-05-spectacular-coastlines---malabar-coast.jpg) no-repeat center center;
   height: 50vh;
   width: 100%;
 }
-.menubar{
-  list-style: none;
+.header:before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 100, 255, 0.4);
 }
-.menubar > li{
+.navbar{
+  display: flex;
+  padding-block: 10px;
+  padding-inline: 100px;
+  position: relative;
+  font-family: Oswald;
+}
+.container{
+  display: inline-flex;
+}
+.nav-container{
+  display: inline-flex;
+  flex-grow: 1;
+}
+.navbar-brand{
+  margin-right: 10px;
+}
+.navbar-left{
+  list-style: none;
+  display: inline-flex;
+  margin-right: auto;
+}
+.navbar-right{
+  list-style: none;
+  display: inline-flex;
+  justify-content: end;
+}
+.nav-item{
+  padding-inline:5px;
+  font-size: 18px;
+  color: #0B3550;
+  display: inline-flex;
+  align-content: center;
+}
+.nav-link{
 
 }
