@@ -30,14 +30,35 @@
   display: inline-flex;
   align-content: start;
 }
+.title{
+  position: relative;
+  font-size: 100px;
+  font-weight: normal;
+  font-family: Open Sans;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+.subtitle{
+  position: relative;
+  bottom: 20px;
+  font-size: 15px;
+  font-weight: 900;
+  font-family: Open Sans;
+  color: #0D3958;
+  text-align: center;
+}
 a:link{text-decoration: none;}
-a:visited{text-decoration: none;}
+a:visited{
+  text-decoration: none;
+  color: #0B3550;
+}
 a:hover{text-decoration: none;}
 a:active{text-decoration: none;}
 .header{
   position: relative;
   background: url(http://cdn.cnn.com/cnnnext/dam/assets/180626120721-05-spectacular-coastlines---malabar-coast.jpg) no-repeat center center;
-  height: 50vh;
+  height: 60vh;
   width: 100%;
 }
 .header:before{
@@ -55,7 +76,6 @@ a:active{text-decoration: none;}
   padding-block: 10px;
   padding-inline: 100px;
   position: relative;
-  font-family: Oswald;
 }
 .container{
   display: inline-flex;
@@ -71,18 +91,22 @@ a:active{text-decoration: none;}
   list-style: none;
   display: inline-flex;
   margin-right: auto;
+  font-family: Open Sans;
+  font-weight: bolder;
 }
 .navbar-right{
   list-style: none;
   display: inline-flex;
   justify-content: end;
+  font-family: Oswald;
+  font-weight: bolder;
 }
 .nav-item{
   padding-inline:5px;
   font-size: 18px;
   color: #0B3550;
   display: inline-flex;
-  align-content: center;
+  align-self: center;
 }
 .nav-link{
 
