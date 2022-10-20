@@ -122,6 +122,29 @@ a:active{text-decoration: none;}
 .author-info{
 
 }
+.author-icon{
+  height: 30px;
+  width: 30px;
+  margin-top: 8px;
+  margin-right: 5px;
+  float: left;
+}
+.blog-author{
+  color: #307AB6;
+  font-size: 11px;
+  float: left;
+  padding-top: 15px;
+}
+.time-text{
+  color: #bfcbd4;
+  font-size: 10px;
+  padding-left: 3px;
+  float: left;
+  padding-top: 16px;
+}
+.article-content{
+
+}
 .social-buttons{
 
 }
@@ -137,5 +160,20 @@ a:active{text-decoration: none;}
   display: inline-flex;
 }
 .footer{
+
+}
+#footer-nav{
+
+}
+#logo{
+
+}
+#logo-img{
+
+}
+#legal-text{
+
+}
+.footer-nav-menu{
 
 }
