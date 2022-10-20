@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Open Sans";
 }
 .col-1{
   width: 8.3%;
@@ -20,6 +21,8 @@
 }
 .container{
   display: inline-flex;
+  margin: auto;
+  overflow: hidden;
 }
 a{
   width: 100%;
@@ -29,7 +32,6 @@ img{
 }
 a:link{
   text-decoration: none;
-  color: #0B3550;
 }
 a:visited{
   text-decoration: none;
@@ -70,7 +72,7 @@ a:active{text-decoration: none;}
   list-style: none;
   display: inline-flex;
   margin-right: auto;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: bolder;
 }
 .navbar-right{
@@ -78,7 +80,6 @@ a:active{text-decoration: none;}
   display: inline-flex;
   justify-content: end;
   font-family: Oswald;
-  font-weight: bolder;
 }
 .nav-item{
   padding-inline:5px;
@@ -86,6 +87,7 @@ a:active{text-decoration: none;}
   color: #0B3550;
   display: inline-flex;
   align-self: center;
+  font-family: Open Sans;
 }
 .title{
   position: relative;
@@ -118,9 +120,12 @@ a:active{text-decoration: none;}
   font-family: Oswald;
   line-height: 70px;
   padding-block: 30px;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 .author-info{
-
+  display: block;
+  height: 40px;
 }
 .author-icon{
   height: 30px;
@@ -128,6 +133,7 @@ a:active{text-decoration: none;}
   margin-top: 8px;
   margin-right: 5px;
   float: left;
+  border-radius: 50%;
 }
 .blog-author{
   color: #307AB6;
@@ -135,21 +141,128 @@ a:active{text-decoration: none;}
   float: left;
   padding-top: 15px;
 }
-.time-text{
+.extra-time-text{
   color: #bfcbd4;
   font-size: 10px;
   padding-left: 3px;
   float: left;
   padding-top: 16px;
 }
+.time-text{
+  color: #bfcbd4;
+  font-size: 10px;
+  padding-left: 3px;
+  float: left;
+  padding-top: 16px;
+  text-decoration: underline;
+}
 .article-content{
-
+  color: #626769;
+  font-size: 12px;
+  line-height: 18px;
+}
+blockquote{
+  color: #3d87c5;
+  font-size: 22px;
+  text-transform: uppercase;
+  border-left: solid 2px #bfcbd4;
+  padding: 10px 25px 10px 10px;
+  margin: 25px 5px 25px 5px;
 }
 .social-buttons{
+  margin-top: 15px;
+}
+.article-action{
+  list-style: none;
+  float: left;
+  background: #9dadb3;
+  color: #fafcfe;
+  font-size: 11px;
+  text-align: center;
+  margin: 4px;
+}
+#read-comments{
+
+}
+#read-later{
+
+}
+#share-post{
 
 }
 .sidebar{
-
+  float: right;
+  padding-top: 100px;
+  display: block;
+}
+.author{
+  text-align: center;
+}
+.author-img{
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+.author-name{
+  color: #3d87c5;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.author-socials{
+  list-style: none;
+  padding-top: 4px;
+  display: inline-block;
+  text-align: center;
+}
+.author-socials li{
+  font-size: 10px;
+  float: left;
+  padding: 0 7px 0 7px;
+  color: #bfcbd4;
+}
+.ad{
+  clear: both;
+  margin: 30px 100px 40px 0;
+  text-align: center;
+  width: 100%;
+}
+.ad-square{
+  clear: both;
+  height: 300px;
+  width: 250px;
+  text-align: center;
+}
+.ad-caption{
+  color: #bfcbd4;
+  font-size: 10px;
+  display: block;
+  text-align: right;
+  margin-right: 100px;
+  font-family: "Open Sans";
+  text-decoration: underline;
+}
+.ad-caption > a{
+  color: #bfcbd4;
+}
+.sidebar-paragraph{
+  margin: 30px 50px 30px 50px;
+  width: 200px;
+}
+.sidebar-heading{
+  text-transform: uppercase;
+  color: #3d87c5;
+  font-family: Oswald;
+  font-size: 14px;
+}
+.sidebar-text{
+  text-align: left;
+  color: #bfcbd4;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 10px;
+  font-family: "Open Sans";
 }
 .lower-section{
   width: 100%;
@@ -159,21 +272,53 @@ a:active{text-decoration: none;}
   width: 100%;
   display: inline-flex;
 }
+.other-posts > div > a{
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 .footer{
-
+  display: block;
+  width: 100%;
+  background: #0B3551;
 }
 #footer-nav{
-
+  margin: auto;
+  display: inline-block;
+  background: #0B3551;
+  clear: both;
+}
+#footer-nav-list{
+  list-style: none;
+  display: block;
+}
+#footer-nav li{
+  font-family: "Open Sans";
+  font-size: 11px;
+  color: #bfcbd4;
 }
 #logo{
-
+  float: left;
+  margin-top: 0;
 }
 #logo-img{
-
+  height: 45px;
+  width: 45px;
+  float: left;
+  margin: 10px;
 }
 #legal-text{
-
+  float: left;
+  font-family: "Open Sans";
+  font-size: 11px;
+  color: #bfcbd4;
+  margin-top: 25px;
 }
 .footer-nav-menu{
-
+  float: right;
+  display: inline-block;
+  padding: 0 9px 0 9px;
+  border-left: dimgray solid 1px;
 }
