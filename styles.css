@@ -32,12 +32,16 @@ img{
 }
 a:link{
   text-decoration: none;
+  color: inherit;
 }
 a:visited{
   text-decoration: none;
-  color: #0B3550;
+  color: inherit;
 }
-a:hover{text-decoration: none;}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
 a:active{text-decoration: none;}
 .header{
   position: relative;
@@ -177,18 +181,41 @@ blockquote{
   float: left;
   background: #9dadb3;
   color: #fafcfe;
-  font-size: 11px;
+  font-size: 14px;
   text-align: center;
-  margin: 4px;
+  margin: 5px;
 }
-#read-comments{
-
+.article-action > span{
+  display: flex;
+  padding: 4px;
+  align-self: center;
 }
-#read-later{
-
+#read-comments > i{
+  list-style: none;
+  float: left;
+  background: #5E686F;
+  color: #fafcfe;
+  text-align: center;
+  padding: 7px;
+}
+#read-later > i{
+  list-style: none;
+  float: left;
+  background: #5E686F;
+  color: #fafcfe;
+  text-align: center;
+  padding: 7px;
 }
 #share-post{
-
+  background: #3d87c5;
+}
+#share-post > i{
+  list-style: none;
+  float: left;
+  background: #083452;
+  color: #fafcfe;
+  text-align: center;
+  padding: 7px;
 }
 .sidebar{
   float: right;
@@ -224,7 +251,7 @@ blockquote{
 }
 .ad{
   clear: both;
-  margin: 30px 100px 40px 0;
+  margin: 30px 0 40px 0;
   text-align: center;
   width: 100%;
 }
@@ -247,22 +274,25 @@ blockquote{
   color: #bfcbd4;
 }
 .sidebar-paragraph{
-  margin: 30px 50px 30px 50px;
-  width: 200px;
+  clear: both;
+  margin: 30px 0 40px 0;
+  width: 100%;
 }
 .sidebar-heading{
+  text-align: left;
   text-transform: uppercase;
   color: #3d87c5;
   font-family: Oswald;
   font-size: 14px;
+  padding: 0 0 0 105px;
 }
 .sidebar-text{
   text-align: left;
   color: #bfcbd4;
   font-size: 12px;
   line-height: 18px;
-  padding-top: 10px;
   font-family: "Open Sans";
+  padding: 10px 100px 0 100px;
 }
 .lower-section{
   width: 100%;
@@ -272,9 +302,39 @@ blockquote{
   width: 100%;
   display: inline-flex;
 }
+.posts{
+  position: relative;
+}
+.post-text{
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  color: #1068A4;
+}
+.posts:before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 100, 255, 0.4);
+  transition: all 0.5s;
+}
+.posts:hover::before{
+  background-color: rgba(0, 0, 0, 0);
+}
+.post-text:hover{
+  color: white;
+  transition: all 0.3s;
+}
 .other-posts > div > a{
-  width: 0;
-  height: 0;
   margin: 0;
   padding: 0;
   border: 0;
