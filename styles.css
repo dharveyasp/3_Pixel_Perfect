@@ -302,11 +302,16 @@ blockquote{
 }
 .other-posts{
   width: 100%;
-  display: inline-flex;
+  display: flex;
 }
 .posts{
   position: relative;
   width: 100%;
+  height: 25vw;
+  background-size: cover;
+}
+.posts > img{
+  object-fit: cover;
 }
 .post-text{
   font-family: 'Oswald';
@@ -352,7 +357,7 @@ blockquote{
   display: inline-block;
   background: #0B3551;
   clear: both;
-  width: 90%;
+  width: 80%;
 }
 #footer-nav-list{
   list-style: none;
