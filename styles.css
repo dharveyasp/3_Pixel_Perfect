@@ -95,6 +95,9 @@ a:active{text-decoration: none;}
   align-self: center;
   font-family: Open Sans;
 }
+.navbar-right > li > a{
+  font-family: Oswald;
+}
 .title{
   position: relative;
   font-size: 100px;
