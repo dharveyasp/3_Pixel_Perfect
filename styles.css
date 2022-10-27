@@ -71,6 +71,8 @@ a:active{text-decoration: none;}
 }
 .navbar-brand{
   margin-right: 10px;
+  height: 75px;
+  width: 75px;
 }
 .navbar-left{
   list-style: none;
@@ -304,6 +306,7 @@ blockquote{
 }
 .posts{
   position: relative;
+  width: 100%;
 }
 .post-text{
   font-family: 'Oswald';
