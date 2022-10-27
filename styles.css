@@ -349,6 +349,7 @@ blockquote{
   display: inline-block;
   background: #0B3551;
   clear: both;
+  width: 90%;
 }
 #footer-nav-list{
   list-style: none;
@@ -381,4 +382,5 @@ blockquote{
   display: inline-block;
   padding: 0 9px 0 9px;
   border-left: dimgray solid 1px;
+  margin-top: 25px;
 }
