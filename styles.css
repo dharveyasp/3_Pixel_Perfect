@@ -46,7 +46,7 @@ a:active{text-decoration: none;}
 .header{
   position: relative;
   background: url(http://cdn.cnn.com/cnnnext/dam/assets/180626120721-05-spectacular-coastlines---malabar-coast.jpg) no-repeat center center;
-  height: 60vh;
+  height: 524px;
   width: 100%;
 }
 .header:before{
@@ -61,8 +61,7 @@ a:active{text-decoration: none;}
 }
 .navbar{
   display: flex;
-  padding-block: 10px;
-  padding-inline: 100px;
+  padding: 10px 168px 0 142px;
   position: relative;
 }
 .nav-container{
@@ -71,8 +70,8 @@ a:active{text-decoration: none;}
 }
 .navbar-brand{
   margin-right: 10px;
-  height: 75px;
-  width: 75px;
+  height: 50px;
+  width: 50px;
 }
 .navbar-left{
   list-style: none;
@@ -100,16 +99,16 @@ a:active{text-decoration: none;}
 }
 .title{
   position: relative;
-  font-size: 100px;
+  font-size: 80px;
   font-weight: normal;
   font-family: Open Sans;
   color: white;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 168px;
 }
 .subtitle{
   position: relative;
-  bottom: 20px;
+  bottom: 15px;
   font-size: 15px;
   font-weight: 900;
   font-family: Open Sans;
@@ -117,24 +116,31 @@ a:active{text-decoration: none;}
   text-align: center;
 }
 .main-section{
-  display: inline-flex;
   width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  margin: 0 -44px 68px -44px;
 }
 .article{
-
+  width: 612px;
+  padding: 70px 44px 0 44px;
 }
 .headline{
   color: #0D3958;
-  font-size: 70px;
+  font-size: 60px;
   font-family: Oswald;
-  line-height: 70px;
-  padding-block: 30px;
+  line-height: 60px;
   text-transform: uppercase;
   font-weight: normal;
+  margin: 0 0 42px 0;
 }
 .author-info{
   display: block;
   height: 40px;
+  margin-bottom: 40px;
 }
 .author-icon{
   height: 30px;
@@ -223,8 +229,9 @@ blockquote{
   padding: 7px;
 }
 .sidebar{
+  width: 280px;
+  padding: 82px 44px 0 44px;
   float: right;
-  padding-top: 100px;
   display: block;
 }
 .author{
@@ -262,8 +269,7 @@ blockquote{
 }
 .ad-square{
   clear: both;
-  height: 300px;
-  width: 250px;
+  width: 100%;
   text-align: center;
 }
 .ad-caption{
@@ -271,7 +277,6 @@ blockquote{
   font-size: 10px;
   display: block;
   text-align: right;
-  margin-right: 100px;
   font-family: "Open Sans";
   text-decoration: underline;
 }
@@ -279,8 +284,6 @@ blockquote{
   color: #bfcbd4;
 }
 .sidebar-paragraph{
-  clear: both;
-  margin: 30px 0 40px 0;
   width: 100%;
 }
 .sidebar-heading{
@@ -289,7 +292,6 @@ blockquote{
   color: #3d87c5;
   font-family: Oswald;
   font-size: 14px;
-  padding: 0 0 0 105px;
 }
 .sidebar-text{
   text-align: left;
@@ -297,7 +299,6 @@ blockquote{
   font-size: 12px;
   line-height: 18px;
   font-family: "Open Sans";
-  padding: 10px 100px 0 100px;
 }
 .lower-section{
   width: 100%;
