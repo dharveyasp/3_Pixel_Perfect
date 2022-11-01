@@ -117,7 +117,7 @@ a:active{text-decoration: none;}
   margin: 0 -44px 68px -44px;
 }
 .article{
-  width: 57.865168539%;
+  width: 63.673469387%;
   padding: 70px 44px 0 44px;
 }
 .headline{
@@ -127,7 +127,6 @@ a:active{text-decoration: none;}
   line-height: 60px;
   text-transform: uppercase;
   font-weight: normal;
-  margin: 0 0 42px 0;
 }
 .author-info{
   display: block;
@@ -165,12 +164,11 @@ a:active{text-decoration: none;}
 }
 .article-content{
   color: #626769;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 16px;
 }
 blockquote{
   color: #3d87c5;
-  font-size: 22px;
+  font-size: 24px;
   text-transform: uppercase;
   border-left: solid 2px #bfcbd4;
   padding: 10px 25px 10px 10px;
@@ -221,7 +219,7 @@ blockquote{
   padding: 7px;
 }
 .sidebar{
-  width: 26.217228464%;
+  width: 36.326530612%;
   padding: 82px 44px 0 44px;
   float: right;
   display: block;
@@ -238,7 +236,7 @@ blockquote{
 }
 .author-name{
   color: #3d87c5;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 .author-socials{
