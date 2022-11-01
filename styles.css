@@ -304,6 +304,9 @@ blockquote{
   width: 100%;
   text-align: center;
 }
+.lower-section > h1{
+  margin: 42px 0 46px 0;
+}
 .other-posts{
   width: 100%;
   display: flex;
@@ -361,7 +364,7 @@ blockquote{
   display: inline-block;
   background: #0B3551;
   clear: both;
-  width: 80%;
+  width: 75%;
 }
 #footer-nav-list{
   list-style: none;
