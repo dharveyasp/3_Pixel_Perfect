@@ -2,7 +2,7 @@
 -------------
 In this project, I used wrote my own HTML and CSS based on a design comp.
 
-![Design Comp.](3_Pixel_Perfect/images/surf-and-paddle.png)
+![Design Comp.](https://github.com/dharveyasp/3_Pixel_Perfect/blob/master/images/surf-and-paddle.png?raw=true)
 
 # Skills Used
 Wrote HTML and CSS from scratch.
