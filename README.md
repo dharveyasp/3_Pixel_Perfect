@@ -2,7 +2,7 @@
 -------------
 In this project, I used wrote my own HTML and CSS in order to make a 1-page website based on a design comp.
 
-Live Demo: [dharveyasp.github.io/3_Pixel_Perfect/](dharveyasp.github.io/3_Pixel_Perfect/)
+[Live Demo](https://dharveyasp.github.io/3_Pixel_Perfect/)
 
 Design Comp:
 ![Design Comp.](https://github.com/dharveyasp/3_Pixel_Perfect/blob/master/images/surf-and-paddle.png?raw=true)
